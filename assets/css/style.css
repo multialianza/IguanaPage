@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;/*lo entrega el Google Fonts al sacar el link de tipografìa y tamaño*/ 
+
+}
+
+
+/*HEADER*/
+
+.header {
+    font-size: 40px;
+    font-weight: 400px;
+    text-align: center;
+    width: 100%;
+}
+
+.bg-header img {
+    width: 100%;
+
+}
+
+
+
+/*SECTION DESCRIPCION*/
+.desc-desc{
+    background-color: #000000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.desc-total {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.section-descripcion {
+    display: inline-block;
+    text-align: left;
+    padding-right: 30px;
+    vertical-align: middle;
+    width: 35%;
+
+}
+
+.iguana-1 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+
+}
+
+
+/*SECTION ICONS*/
+.section-icons {
+    background-color: #1e1a13;
+    padding: 50px;
+    text-align: center;/*tanto el h2 y los iconos se centran*/
+}
+    
+    
+.section-icons h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;/*separa el h2 caracteristicas de los iconos*/
+}
+    
+.icons {
+    display: inline-block;/*pone los iconos en linea horizontal*/
+    width: 25%;
+    
+}
+    
+.icons p {
+    font-size: 20px;
+    font-weight: 300;
+    /*se aplica a todas las p que estan debajo de cada icono*/
+}
+    
+
+
+/*SECTION 3 IMAGENES*/
+.section-img {
+    text-align: center;/*centra las 3 imagenes de la seccion img en la misma linea vertical*/
+    
+}
+
+.imagen {
+    display: inline-block;/*pone las imagenes juntas en linea horizontal*/
+    vertical-align: middle; /*centra las imagenes*/
+    width: 25%;
+}
+
+.imagen img {
+    width: 70%;
+}
+
+
+/*SECTION FOOTER*/
+footer {
+    padding: 35px;
+    background-color: #1e1a13;/*fondo negro*/
+    text-align: center;/*alinear hacia el centro*/
+    color: #ffffff; /*pone las letras del footer excepto las del ancor de color  #ffffff*/
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white;/*pone las letras del ancor de color blanco*/
+
+}
+
+
+
